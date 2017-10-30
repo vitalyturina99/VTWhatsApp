@@ -28,7 +28,7 @@ public class Update extends AsyncTask<String, String, String> {
     }
     protected String doInBackground(final String... array) {
         try {
-            InputStreamReader in = new InputStreamReader(new URL("https://raw.githubusercontent.com/vitalyturina99/VTWhatsApp.github.io/master/Update.html").openStream());
+            InputStreamReader in = new InputStreamReader(new URL("https://raw.githubusercontent.com/vitalyturina99/VTWhatsApp/master/app/src/main/java/kmods/Update.java").openStream());
             BufferedReader br = new  BufferedReader(in);
             String string = "";
             while (true) {
