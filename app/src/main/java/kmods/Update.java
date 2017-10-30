@@ -28,7 +28,7 @@ public class Update extends AsyncTask<String, String, String> {
     }
     protected String doInBackground(final String... array) {
         try {
-            InputStreamReader in = new InputStreamReader(new URL("https://raw.githubusercontent.com/kp7742/kp7742.github.io/master/Update.html").openStream());
+            InputStreamReader in = new InputStreamReader(new URL("https://raw.githubusercontent.com/vitalyturina99/vitalyturina99.github.io/master/Update.html").openStream());
             BufferedReader br = new  BufferedReader(in);
             String string = "";
             while (true) {
